@@ -31,6 +31,6 @@ public class IssueOfDiplomas {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(binarySearchDiplomas(3, 4, 9));
     }
 }

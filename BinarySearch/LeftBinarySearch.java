@@ -8,7 +8,6 @@ package BinarySearch;
 Находим середину.
 Если найденное значение эквивалентно искомому, то сдвигаем правую границу строго на индекс middle.
 
-
  */
 
 public class LeftBinarySearch {
@@ -35,6 +34,6 @@ public class LeftBinarySearch {
     }
 
     public static void main(String[] args) {
-        System.out.print(leftBinarySearch(new int[]{1, 2, 2, 2, 2, 5}, 2));
+        System.out.print(leftBinarySearch(new int[]{3, 4, 8, 8, 8, 9, 11, 11}, 8));
     }
 }

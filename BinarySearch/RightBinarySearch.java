@@ -24,11 +24,11 @@ public class RightBinarySearch {
                 right = middle;
             }
         }
-        if (data[left] == target) {
-            return left;
-        }
         if (data[right] == target) {
             return right;
+        }
+        if (data[left] == target) {
+            return left;
         }
         return -1;
     }
